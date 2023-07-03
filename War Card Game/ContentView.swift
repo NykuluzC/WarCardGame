@@ -69,8 +69,8 @@ struct ContentView: View {
     func deal(){
         // Randomize Cards both player and cpu
         // Update the scores
-        var randPlayer = Int.random(in: 2...14)
-        var randCPU = Int.random(in: 2...14)
+        let randPlayer = Int.random(in: 2...14)
+        let randCPU = Int.random(in: 2...14)
         cardPlayer = "card" + String(randPlayer)
         cardCPU = "card" + String(randCPU)
 
